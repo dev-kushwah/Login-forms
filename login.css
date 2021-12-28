@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url(bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /* color: rgb(27, 233, 27); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding-top: 10vh;
+}
+
+.container {
+
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    /* background:url(apple.jpg) no-repeat center center fixed; */
+
+
+    /* padding:6px 81px; 
+   width:250px;
+   margin-top:50%;
+   margin-bottom: 50%;
+   margin-left: 25%;
+    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    ;
+
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    box-shadow: -3px -2px 6px #6c6565, 7px 9px 25px #0b0b0b;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+
+    font-size: 40px;
+    /* border-bottom: 3px solid goldenrod; */
+    text-align: center;
+    align-items: center;
+
+    margin-bottom: 19px;
+    padding: 10px;
+
+    color: yellow;
+    text-shadow: 0 0 10px rgb(17, 17, 16), 0 0 10px #a8e026;
+}
+
+.box {
+    text-align: center;
+    margin-top: 18px;
+    width: 100%;
+    padding: 6px;
+    /* border:2px solid purple; */
+}
+
+.box input {
+    width: 75%;
+    margin: 2px 0;
+    border: 2px solid rgb(199, 219, 13);
+    border-radius: 9px;
+    background: #777272;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+input[type='password'] {
+    margin-top: 23px;
+}
+
+.box input::placeholder {
+    color: black;
+}
+
+.btn {
+    font-family: montserrat;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    margin: 27px 9px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid yellow;
+    color: yellow;
+    text-shadow: 0 0 3px #fbff00, 0 0 5px black;
+    background: #6c6565;
+    /* background: #fbba50; */
+}
+
+.container .btns {
+
+    margin-top: 20px;
+}
+
+.container .btns a {
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+}
+
+.container .box .bx {
+    color: #0b0b0b;
+    text-shadow: 0 0 30px yellow, 0 0 10px #a8e026;
+}
